@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Circuito exemplo da SECOMP UFSCar 2019"
+Date "2019-09-12"
+Rev "Versão 1"
 Comp ""
-Comment1 ""
+Comment1 "Minicurso do Álvaro Volpato"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -353,17 +353,6 @@ F 3 "" H 1900 1150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_01x10_Female J2
-U 1 1 5D859DCC
-P 4550 2050
-F 0 "J2" H 4578 2026 50  0000 L CNN
-F 1 "Conn_01x10_Female" H 4578 1935 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4550 2050 50  0001 C CNN
-F 3 "~" H 4550 2050 50  0001 C CNN
-	1    4550 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Conn_01x10_Female J3
 U 1 1 5D85A812
 P 4550 3250
@@ -386,25 +375,7 @@ F 3 "~" H 4550 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 1650 4350 1650
-Wire Wire Line
-	4200 1750 4350 1750
-Wire Wire Line
-	4200 1850 4350 1850
-Wire Wire Line
-	4200 1950 4350 1950
-Wire Wire Line
-	4200 2050 4350 2050
-Wire Wire Line
-	4200 2150 4350 2150
-Wire Wire Line
-	4200 2250 4350 2250
-Wire Wire Line
-	4200 2350 4350 2350
-Wire Wire Line
 	4200 2550 4200 2450
-Wire Wire Line
-	4200 2450 4350 2450
 Wire Wire Line
 	4200 2850 4350 2850
 Wire Wire Line
@@ -449,8 +420,6 @@ Wire Wire Line
 	4200 2650 4250 2650
 Wire Wire Line
 	4250 2650 4250 2550
-Wire Wire Line
-	4250 2550 4350 2550
 Connection ~ 2450 2100
 Connection ~ 2450 1800
 $Comp
@@ -475,4 +444,51 @@ F 3 "~" H 1650 2600 50  0001 C CNN
 	1    1500 2650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4250 2550 4350 2550
+Wire Wire Line
+	4200 2450 4350 2450
+Wire Wire Line
+	4200 2350 4350 2350
+Wire Wire Line
+	4200 2250 4350 2250
+Wire Wire Line
+	4200 2150 4350 2150
+Wire Wire Line
+	4200 2050 4350 2050
+Wire Wire Line
+	4200 1950 4350 1950
+Wire Wire Line
+	4200 1850 4350 1850
+Wire Wire Line
+	4200 1750 4350 1750
+Wire Wire Line
+	4200 1650 4350 1650
+Text GLabel 5050 1650 0    50   Input ~ 0
+Pino11
+Text GLabel 5050 1750 0    50   Input ~ 0
+Pino10
+Text GLabel 5050 1850 0    50   Input ~ 0
+Pino9
+Text GLabel 4350 1950 2    50   Input ~ 0
+Pino11
+$Comp
+L Connector:Conn_01x10_Female J2
+U 1 1 5D859DCC
+P 5250 2050
+F 0 "J2" H 5278 2026 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 5278 1935 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 5250 2050 50  0001 C CNN
+F 3 "~" H 5250 2050 50  0001 C CNN
+	1    5250 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4350 1850 2    50   Input ~ 0
+Pino10
+Text GLabel 4350 1750 2    50   Input ~ 0
+Pino9
+Text GLabel 5050 1950 0    50   Input ~ 0
+Pino8
+Text GLabel 4350 1650 2    50   Input ~ 0
+Pino8
 $EndSCHEMATC
