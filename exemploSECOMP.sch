@@ -325,4 +325,154 @@ F 3 "" H 5250 1250 50  0001 C CNN
 	1    5250 1250
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D83F881
+P 2900 850
+F 0 "#PWR?" H 2900 700 50  0001 C CNN
+F 1 "+5V" H 2915 1023 50  0000 C CNN
+F 2 "" H 2900 850 50  0001 C CNN
+F 3 "" H 2900 850 50  0001 C CNN
+	1    2900 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D83FE22
+P 2900 1000
+F 0 "R?" H 2970 1046 50  0000 L CNN
+F 1 "10k" H 2970 955 50  0000 L CNN
+F 2 "" V 2830 1000 50  0001 C CNN
+F 3 "~" H 2900 1000 50  0001 C CNN
+	1    2900 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1650 3000 1650
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5D840BCF
+P 2100 1150
+F 0 "SW?" H 2100 1435 50  0000 C CNN
+F 1 "SW_Push" H 2100 1344 50  0000 C CNN
+F 2 "" H 2100 1350 50  0001 C CNN
+F 3 "~" H 2100 1350 50  0001 C CNN
+	1    2100 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1150 2900 1650
+Wire Wire Line
+	2300 1150 2900 1150
+Connection ~ 2900 1150
+$Comp
+L power:GND #PWR?
+U 1 1 5D854FA8
+P 1900 1150
+F 0 "#PWR?" H 1900 900 50  0001 C CNN
+F 1 "GND" V 1905 1022 50  0000 R CNN
+F 2 "" H 1900 1150 50  0001 C CNN
+F 3 "" H 1900 1150 50  0001 C CNN
+	1    1900 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5D859DCC
+P 4550 2050
+F 0 "J?" H 4578 2026 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 4578 1935 50  0000 L CNN
+F 2 "" H 4550 2050 50  0001 C CNN
+F 3 "~" H 4550 2050 50  0001 C CNN
+	1    4550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x10_Female J?
+U 1 1 5D85A812
+P 4550 3250
+F 0 "J?" H 4578 3226 50  0000 L CNN
+F 1 "Conn_01x10_Female" H 4578 3135 50  0000 L CNN
+F 2 "" H 4550 3250 50  0001 C CNN
+F 3 "~" H 4550 3250 50  0001 C CNN
+	1    4550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 5D85BD0D
+P 4550 4250
+F 0 "J?" H 4578 4226 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 4578 4135 50  0000 L CNN
+F 2 "" H 4550 4250 50  0001 C CNN
+F 3 "~" H 4550 4250 50  0001 C CNN
+	1    4550 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1650 4350 1650
+Wire Wire Line
+	4200 1750 4350 1750
+Wire Wire Line
+	4200 1850 4350 1850
+Wire Wire Line
+	4200 1950 4350 1950
+Wire Wire Line
+	4200 2050 4350 2050
+Wire Wire Line
+	4200 2150 4350 2150
+Wire Wire Line
+	4200 2250 4350 2250
+Wire Wire Line
+	4200 2350 4350 2350
+Wire Wire Line
+	4200 2550 4200 2450
+Wire Wire Line
+	4200 2450 4350 2450
+Wire Wire Line
+	4200 2850 4350 2850
+Wire Wire Line
+	4200 2950 4350 2950
+Wire Wire Line
+	4200 3050 4350 3050
+Wire Wire Line
+	4200 3150 4350 3150
+Wire Wire Line
+	4200 3250 4350 3250
+Wire Wire Line
+	4200 3350 4350 3350
+Wire Wire Line
+	4200 3450 4350 3450
+Wire Wire Line
+	4200 3550 4350 3550
+Wire Wire Line
+	4200 3750 4200 3650
+Wire Wire Line
+	4200 3650 4350 3650
+Wire Wire Line
+	4200 3850 4250 3850
+Wire Wire Line
+	4250 3850 4250 3750
+Wire Wire Line
+	4250 3750 4350 3750
+Wire Wire Line
+	4200 4050 4350 4050
+Wire Wire Line
+	4200 4150 4350 4150
+Wire Wire Line
+	4200 4250 4350 4250
+Wire Wire Line
+	4200 4350 4350 4350
+Wire Wire Line
+	4200 4450 4350 4450
+Wire Wire Line
+	4200 4550 4350 4550
+Wire Wire Line
+	4200 4650 4350 4650
+Wire Wire Line
+	4200 2650 4250 2650
+Wire Wire Line
+	4250 2650 4250 2550
+Wire Wire Line
+	4250 2550 4350 2550
 $EndSCHEMATC
