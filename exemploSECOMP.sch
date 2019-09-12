@@ -1,4 +1,92 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 5D7A55B7
+P 1750 2650
+F 0 "J?" H 1807 3117 50  0000 C CNN
+F 1 "USB_B_Micro" H 1807 3026 50  0000 C CNN
+F 2 "" H 1900 2600 50  0001 C CNN
+F 3 "~" H 1900 2600 50  0001 C CNN
+	1    1750 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D7BB45B
+P 2350 2650
+F 0 "R?" V 2500 2650 50  0000 C CNN
+F 1 "22R" V 2450 2650 50  0000 C CNN
+F 2 "" V 2280 2650 50  0001 C CNN
+F 3 "~" H 2350 2650 50  0001 C CNN
+	1    2350 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D7BB9CA
+P 2350 2750
+F 0 "R?" V 2450 2750 50  0000 C CNN
+F 1 "22R" V 2500 2750 50  0000 C CNN
+F 2 "" V 2280 2750 50  0001 C CNN
+F 3 "~" H 2350 2750 50  0001 C CNN
+	1    2350 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2050 2650 2200 2650
+Wire Wire Line
+	2050 2750 2200 2750
+$Comp
+L MCU_Microchip_ATmega:ATmega16U4-AU U?
+U 1 1 5D7A3D5A
+P 3600 3150
+F 0 "U?" H 3600 1261 50  0000 C CNN
+F 1 "ATmega16U4-AU" H 3600 1170 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3600 3150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3600 3150 50  0001 C CNN
+	1    3600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2750 3000 2750
+Wire Wire Line
+	2500 2650 3000 2650
+Wire Wire Line
+	2050 2450 2150 2450
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7A5BCB
+P 2150 2450
+F 0 "#PWR?" H 2150 2300 50  0001 C CNN
+F 1 "+5V" H 2165 2623 50  0000 C CNN
+F 2 "" H 2150 2450 50  0001 C CNN
+F 3 "" H 2150 2450 50  0001 C CNN
+	1    2150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7E4A8B
+P 1750 3050
+F 0 "#PWR?" H 1750 2800 50  0001 C CNN
+F 1 "GND" H 1755 2877 50  0000 C CNN
+F 2 "" H 1750 3050 50  0001 C CNN
+F 3 "" H 1750 3050 50  0001 C CNN
+	1    1750 3050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
